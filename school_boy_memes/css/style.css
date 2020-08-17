@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+body {
+	background-color: white;
+}
+html {
+	font-size: 10px;
+}
+.by {
+	margin: 0px;
+	font-family: 'Neucha', cursive,sans-serif;
+	border-bottom: 2px solid #000;
+	font-size: 1.5rem;
+}
+.header  {
+	font-family: PoeVeticaBold,  sans-serif;
+	text-align: left;
+	color: red;
+	font-size: 3.5rem;
+}
+.header a {
+	color: red;
+	text-decoration: none
+}
+.header span {
+	font-style: italic;
+	font-weight: bolder;
+	text-decoration: underline;
+}
+@font-face {
+	font-family: PoeVeticaBold;
+	src: url('../fonts/PoeVeticaBold.otf') format('otf'),
+		url('../fonts/PoeVeticaBold.woff') format('woff'),
+		url('../fonts/PoeVeticaBold.woff2') format('woff2'),
+
+}
+.vk a {
+	font-family: 'Neucha', cursive, sans-serif;
+	font-size: 2rem;
+	color: #000;
+	font-weight: bold;
+}
